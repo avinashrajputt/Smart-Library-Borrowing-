@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { AuthContext } from '../utils/AuthContext';
+import React, { useState, useEffect } from 'react';
 import { authAPI } from '../utils/api';
 import './Profile.css';
 
