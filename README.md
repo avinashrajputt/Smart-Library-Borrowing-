@@ -2,7 +2,7 @@
 
 A full-stack web application to manage book borrowing, cost calculation, expense splitting, and user balances among students.
 
-## ðŸ“‹ Project Overview
+## ‹ Project Overview
 
 This application allows students to:
 - **Authenticate**: Sign up, log in, and manage their profile
@@ -14,7 +14,7 @@ This application allows students to:
 - **View History**: See complete borrowing history with payment status
 - **Dashboard**: Summary view of active borrows, total debt, and statistics
 
-## ðŸ› ï¸ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React.js** - UI Framework
@@ -30,7 +30,7 @@ This application allows students to:
 - **JWT** - Authentication
 - **bcryptjs** - Password Hashing
 
-## ðŸ“¦ Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -82,13 +82,13 @@ This application allows students to:
    ```
    Application will open at `http://localhost:3000`
 
-## ðŸ”‘ Sample Login Credentials
+##  Sample Login Credentials
 
 For testing purposes, you can create your own account during signup or use:
 - **Email**: test@example.com
 - **Password**: password123
 
-## ðŸ“š Features & API Endpoints
+##  Features & API Endpoints
 
 ### Authentication
 - `POST /api/auth/signup` - Register new user
@@ -178,7 +178,7 @@ For testing purposes, you can create your own account during signup or use:
 }
 ```
 
-## ðŸ” Security Features
+##  Security Features
 
 - **Password Hashing**: Passwords are hashed using bcryptjs
 - **JWT Authentication**: Secure token-based authentication
@@ -186,7 +186,7 @@ For testing purposes, you can create your own account during signup or use:
 - **Input Validation**: All inputs are validated on both frontend and backend
 - **Error Handling**: Comprehensive error handling with meaningful messages
 
-## ðŸ“Š Business Logic
+##  Business Logic
 
 ### Cost Calculation
 ```
@@ -215,7 +215,7 @@ The frontend includes:
 - **Borrowing History**: Table view of past borrows with costs and dates
 - **User Profile**: User information and borrowing statistics
 
-## ðŸš€ Deployment
+##  Deployment
 
 ### Backend (Node.js)
 Can be deployed to:
@@ -235,7 +235,7 @@ Can be deployed to:
 - Heroku
 - Azure Static Web Apps
 
-## ðŸ“ API Response Format
+##  API Response Format
 
 All API responses follow this format:
 ```json
@@ -245,7 +245,7 @@ All API responses follow this format:
 }
 ```
 
-## ðŸ› Error Handling
+##  Error Handling
 
 The application handles various error scenarios:
 - Invalid credentials
