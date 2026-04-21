@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { bookAPI, borrowAPI } from '../utils/api';
 import { formatCurrency } from '../utils/helpers';
@@ -59,7 +59,7 @@ const Books = () => {
       await borrowAPI.validateBorrow(selectedBook._id);
 
       // Then borrow
-      const response = await borrowAPI.borrowBook(selectedBook._id, numberOfDays);
+      await borrowAPI.borrowBook(selectedBook._id, numberOfDays);
       alert('Book borrowed successfully!');
       setSelectedBook(null);
       navigate('/active-borrows');

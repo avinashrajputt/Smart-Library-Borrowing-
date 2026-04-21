@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { dashboardAPI, paymentAPI } from '../utils/api';
+import { dashboardAPI } from '../utils/api';
 import { formatCurrency } from '../utils/helpers';
 import { AuthContext } from '../utils/AuthContext';
 import './Dashboard.css';
@@ -9,7 +9,7 @@ const Dashboard = () => {
   const [summary, setSummary] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  const { user, logout } = useContext(AuthContext);
+  const { logout } = useContext(AuthContext);
   const navigate = useNavigate();
 
   useEffect(() => {

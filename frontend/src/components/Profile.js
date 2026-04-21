@@ -7,7 +7,6 @@ const Profile = () => {
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  const { user } = useContext(AuthContext);
 
   useEffect(() => {
     fetchProfile();
